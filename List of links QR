@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laser Fair - Connect With Us</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            font-weight: 500;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 0;
+            border-radius: 0;
+            box-shadow: none;
+            width: 100%;
+            max-width: 100%;
+            text-align: center;
+        }
+        .header {
+            background: linear-gradient(to bottom, #d443ff 50%, white 50%);
+            color: #333;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 0;
+            position: relative;
+            text-align: center;
+            height: 350px;
+        }
+        .logo {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            border: 5px solid white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+        .text-below-logo {
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            width: 100%;
+            text-align: center;
+        }
+        .text-below-logo h1 {
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .text-below-logo p {
+            margin: 0;
+            padding: 0;
+            font-size: 1.6em;
+        }
+        .social-links {
+            list-style: none;
+            padding: 0;
+            background-color: #f2f2f2;
+            border-radius: 0;
+            padding: 10px;
+        }
+       .social-links li {
+            margin-bottom: 10px;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            padding-left: 2%;
+        }
+         .social-links li:nth-child(1) a,
+        .social-links li:nth-child(2) a {
+            background-color: #d443ff;
+            color: white;
+        }
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 18px 28px;
+            font-size: 1.6em;
+            text-decoration: none;
+            border-radius: 10px;
+            color: black;
+            width: 100%;
+            box-sizing: border-box;
+            padding-right: 40px;
+            position: relative;
+            background-color: white;
+        }
+       .social-links a::after {
+            content: " \2192";
+            font-size: 2em;
+            position: absolute;
+            right: 10px;
+              color: black;
+        }
+        .no-arrow a::after {
+            content: none;
+        }
+        .social-links img {
+           width: 90px;
+             height: 90px;
+            object-fit: contain;
+             margin-right: 15px;
+            vertical-align: middle;
+        }
+         .social-links li.find-us-on {
+            padding: 10px;
+            text-align: center;
+            font-size: 2.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+              width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://i.imgur.com/ld2p4hN.jpeg" alt="Laser Fair Logo" class="logo">
+        </div>
+        <ul class="social-links">
+            <li class="no-arrow"><a href="https://laserfair.co.za/">  <img src="https://i.imgur.com/ld2p4hN.jpeg" alt="Website">  Laser Fair Website </a></li>
+            <li class="no-arrow"><a href="https://g.page/r/CTGiGfEi4koFEAE/review">  <img src="https://i.imgur.com/XR1tMcl.jpeg" alt="Google Reviews"> Google Reviews </a></li>
+            <li class="find-us-on">Find us on</li>
+            <li><a href="https://www.facebook.com/LaserFairs/"> <img src="https://i.imgur.com/4kcfNSr.png" alt="Facebook"> Facebook</a></li>
+            <li><a href="https://www.instagram.com/laserfair/">  <img src="https://i.imgur.com/AQvCoji.png" alt="Instagram"> Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@carlienpretorius5?_t=ZS-8zsiCNyuFB1&_r=1"> <img src="https://i.imgur.com/ZacYSV7.png" alt="TikTok"> TikTok</a></li>
+            <li><a href="https://www.youtube.com/@carlienpretorius6242">  <img src="https://i.imgur.com/NLmSuNY.png" alt="YouTube"> YouTube</a></li>
+            <li><a href="https://wa.me/27780269494">  <img src="https://i.imgur.com/9dsxP0I.png" alt="WhatsApp"> WhatsApp</a></li>
+             <li><a href="https://www.linkedin.com/in/carlien-pretorius-7a078a236/">  <img src="https://i.imgur.com/nQd4Ma2.png" alt="LinkedIn"> LinkedIn</a></li>
+        </ul>
+    </div>
+</body>
+</html>
